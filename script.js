@@ -6,15 +6,15 @@
 
 const bici = [
    {nome: "Elektra", peso: 10},
-   {nome: "Elektra", peso: 20},
-   {nome: "Elektra", peso: 15},
-   {nome: "Elektra", peso: 7},
-   {nome: "Elektra", peso: 5},
+   {nome: "DMX.MAX", peso: 20},
+   {nome: "riocuarto", peso: 15},
+   {nome: "main", peso: 7},
+   {nome: "dmx", peso: 5},
 ]
 
  let biciLeggera = bici[0];
 
- for (let i = 1; i < bici.length; i++) {
+ for (let i = 0; i < bici.length; i++) {
      if (bici[i].peso < biciLeggera.peso) {
          biciLeggera = bici[i];
     }
@@ -54,3 +54,4 @@ campionato.forEach(campionato => {
 })
 
 console.log(NomieFalli)
+
